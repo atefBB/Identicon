@@ -55,7 +55,7 @@ or generate and get the base 64 image uri ready for integrate into an HTML img t
 $imageDataUri = $identicon->getImageDataUri('bar');
 ```
 ``` html
-<img src="<?php echo $imageDataUri; ?>" alt="bar Identicon" />
+<img src="<?= $imageDataUri; ?>" alt="bar Identicon" />
 ```
 
 
